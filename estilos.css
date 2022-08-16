@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(79, 46, 202);
+}
+.contenedorsup{
+    text-align: center;
+    background-color: rgb(216, 222, 144);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.supabajo{
+    padding-bottom: 10px;
+}
+.contenedormid{
+    text-align: justify;
+    background-color: rgb(124, 232, 131);
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    display:flex;
+    flex-flow: row wrap-reverse ;
+    justify-content: center; 
+    padding-top: 10px;
+}
+.contenedorinf{
+    border-top: 10px;
+    text-align: center;
+    background-color: rgb(216, 86, 127);
+    border-top: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.retorno{
+    justify-content: center;
+    text-align: center;
+}
+.patas{
+    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.texto2{
+    width: 500px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.logoindex{
+    height: 20px;
+}
+.titulo{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.subtitulo{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+.nav-link:hover{
+    background:rgba(0, 0, 0, 0.315);
+    color: whitesmoke;
+}
+.navbar{
+    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+}
+.nav-link{
+    color: black;
+}
+.love{
+    height: 300px;
+    padding: 10px;
+}
+/*tamaño de ventana de tablet*/
+@media (min-width:602px) and (max-width:1200px) {
+    .container{
+        max-width: 90%;
+}}
+/*tamaño de ventana celular*/
+@media (max-width:601px){
+.container{
+    max-width: 100%;
+    text-align: center;
+    } 
+}
